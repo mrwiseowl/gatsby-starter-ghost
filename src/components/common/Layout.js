@@ -35,11 +35,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
-                   var NewComponent = React.createClass({
-  render: function() {
-    return (
-
-      <header className="globalNav overlayActive dropdownActive">
+                    <header className="globalNav overlayActive dropdownActive">
         <div className="container-lg">
           <ul className="navRoot">
             <li className="navSection logo">
@@ -346,9 +342,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
           </div>
         </div>
       </header>
-    );
-  }
-});
 
                     <main className="site-main">
                         {/* All the main content gets inserted here, index.js, post.js */}
